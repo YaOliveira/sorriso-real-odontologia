@@ -1,0 +1,187 @@
+/* Estilos Gerais */
+body{
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid #324999;
+    padding: 10px 30px;
+    color: #324999;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn.btn-amarelo:hover {
+    color: #FFDE19;
+    border-color: #FFDE19;
+}
+
+
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto 10px auto;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#324999;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.header_menu {
+    text-align: right;
+    
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header_menu ul li a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+
+}
+
+.header_menu ul li a:hover {
+    color: #000;
+}
+/* Introdução */
+
+.introducao {
+   width: 100%;
+   height: 380px;
+   background: url("../img/bg.jpg") no-repeat center; 
+   background-size: cover;
+   margin-top: 96px;
+   text-align: center;
+   padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao p {
+    font-size: 25px;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p:before, .quote-externo p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+/* Tratamentos */
+
+.tratamentos {
+    padding: 60px 0;
+}
+
+.tratamentos_lista li {
+    padding: 10px 0;
+    background: #FFDE19;
+    text-align: center;
+}
+
+.tratamentos_lista li h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height:  25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.tratamentos_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto 10px auto;
+}
+
+.tratamentos_lista li p {
+    padding: 10px 20px 10px 20px;
+}
+
+.tratamentos_icone {
+    background: #FFF;
+    padding: 20px;
+}
+
+.call-to-action {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call-to-action p {
+    margin-bottom: 30px;
+}
