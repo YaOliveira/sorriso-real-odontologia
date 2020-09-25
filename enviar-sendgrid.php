@@ -2,8 +2,8 @@
 
 require("./sendgrid-php/sendgrid-php.php");
 
-$email_site = "contatoyaoliveira@gmail.com";
-$nome_site = "Sorriso REal Odontologia";
+$email_site = "teste@gmail.com";
+$nome_site = "Sorriso Real Odontologia";
 
 $email_user = $_POST["email"];
 $nome_user = $_POST["nome"];
@@ -22,7 +22,7 @@ $email->addTo($email_site, $nome_site);
 
 $email->setReplyTo($email_user, $nome_user);
 
-$email->setSubject("Formulário Bikcraft");
+$email->setSubject("Formulário Sorriso Real Odontologia");
 $email->addContent("text/plain", $body_content);
 
 $sendgrid = new \SendGrid("SG.7GHGewZCRJOSduYZKHbObQ.zF_v-mq0_H2OnbcSUNjKdaSZYNVDm_F1_");

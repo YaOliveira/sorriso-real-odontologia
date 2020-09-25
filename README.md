@@ -4,6 +4,8 @@ O site do Sorriso Real é um projeto com o intuito de divulgar maiores informaç
 ## Autoria
 O projeto foi desenvolvido por: **Yara Oliveira**.
 
+[Acesse o site](https://yaoliveira.github.io/sorriso-real-odontologia/)
+
 ## Índice
 
 * [Resumo do Projeto](#Resumo-do-Projeto)
