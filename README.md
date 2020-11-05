@@ -22,6 +22,7 @@ O projeto foi desenvolvido por: **Yara Oliveira**.
  
 
 * [Linguagem de programação](#Linguagem-de-programação)
+
 Essa página foi desenvolvida em JavaScript (ES6+), HTML e CSS.
 
 
