@@ -19,10 +19,6 @@ O projeto foi desenvolvido por: **Yara Oliveira**.
 * [Teste de Usabilidade](#Teste-de-usabilidade)
 
 # Resumo do Projeto
- 
-
-* [Linguagem de programação](#Linguagem-de-programação)
-
 Essa página foi desenvolvida em JavaScript (ES6+), HTML e CSS.
 
 
